@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chikipets</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Welcome to Chikipets!</h1>
+    <p>Lose your pieces to win!</p>
+
+    <!-- BOARD VIEW BUTTONS -->
+
+    <div class="board-controls">
+        <span>Board View:</span>
+
+        <button
+            id="classic-view"
+            class="view-button active"
+            type="button">
+            Classic
+        </button>
+
+        <button
+            id="adventure-view"
+            class="view-button"
+            type="button">
+            Adventure
+        </button>
+    </div>
+
+    <!-- GAME BOARD -->
+
+    <div class="board-stage">
+        <div id="board"></div>
+    </div>
+
+    <!-- JAVASCRIPT FILES -->
+
+    <script src="script.js"></script>
+    <script src="ending.js"></script>
+
+</body>
+</html>
